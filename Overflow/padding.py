@@ -1,7 +1,8 @@
 #!/usr/bin/python3
 
 
-# Simple python script with a register account function which performs 50 account register on the webpage of# the Overflow machine in HTB, in order to see if there is any relation between the username and cookie 
+# Simple python script with a register account function which performs 50 account register on the webpage of
+# the Overflow machine in HTB, in order to see if there is any relation between the username and cookie 
 # lengths. There is also a error_detector function which tries to log in,modify it cookie, and does
 # a get request to see if any padding error message is leaked. 
 # Inspired by 0xdf script. Made by Txhaka.
